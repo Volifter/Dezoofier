@@ -1,0 +1,9 @@
+{
+    "server": {
+        "port": 8080
+    },
+    "data": {
+        "services_path": "./data/services.csv",
+        "entities_path": "./data/entities.csv"
+    }
+}
