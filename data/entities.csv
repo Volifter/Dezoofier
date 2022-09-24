@@ -1,0 +1,64 @@
+id,name,description
+name,Name,A real person's name
+username,Username,A username
+email,Email,An email address
+phone,Phone,A phone number
+address,Address,A real-world address
+image,Image,An image
+video,Video,A video
+metadata,Metadata,Metadata of a file. Can contain useful information (creation date/geolocation/software used/...)
+verification,Verification,Verification on the data provided (usually image or video)
+face,Face,The image of a face
+webpage,Webpage,A webpage URL
+ip,IP,An IP address
+tiktok-account,TikTok Account,A Tiktok account
+location,Location,A geographic location
+file,File,A file of any type
+statistics,Statistics,Appearance statistics of a given term/hashtag/topic
+clubhouse-account,Clubhouse Account,A Clubhouse account
+topic,Topic,A topic (for broad searches)
+discord-server,Discord server,A Discord server
+discord-account,Discord account,A Discord account
+text,Text,"A piece of text. Includes social media posts, articles, etc"
+date,Date,A date or interval
+account,Account,An account from any social network/website
+gmail-address,Gmail address,A google email address (ending in @gmail.*)
+instagram-account,Instagram account,An instagram account
+instagram-location,Instagram location,An instagram location
+linkedin-account,LinkedIn account,A Linkedin account
+minecraft-account,Minecraft account,A Minecraft account
+parler-account,Parler account,A Parler account
+hashtag,Hashtag,A #hashtag
+keyword,Keyword,A single keyword
+reddit-account,Reddit account,A Reddit account
+skype-account,Skype account,A Skype account
+snapchat-account,Snapchat account,A Snapchat account
+steam-account,Steam account,A Steam account
+telegram-account,Telegram account,A Telegram account
+telegram-channel,Telegram channel,A Telegram channel
+twitter-account,Twitter account,A Twitter account
+twitter-post,Twitter post,"A ""Tweet"" (twitter post)"
+history,History,A list of changes for an entity (account/website/...)
+vk-account,VK account,A VK account
+odnoklassniki-account,Odnoklassniki account,An Odnoklassniki account
+xbox-account,XBox account,An Xbox account (gamertag)
+facebook-account,facebook account,A Facebook account
+youtube-video,YouTube video,A YouTube video
+court,Court case,A court case
+business,Business,A business registry
+property,Property,Property
+dob,Date of Birth,Date of birth
+ship,Ship,"An IMO number, ship name or similar"
+aircraft,Aircraft,An aircraft registration number (callsign)
+flight,Flight,A flight number
+aircraft-incident,Aircraft incident,A recorded aircraft incident
+railway,Railway,A railway
+route,Route,Any type of transport route (bus/subway/railway)
+car,Car,Information about a car (make/model/generation)
+eth,ETH,An ethereum wallet
+btc,BTC,A bitcoin wallet
+company,Company,A company
+real-estate,Real estate,A piece of real estate
+species,Species,An animal species
+audio,Audio,An audio recording
+poaching,Poaching,Cases of poaching (illegal hunting)
