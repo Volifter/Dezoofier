@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <title>Dezoofier</title>
+</head>
+<body>
+<template id="service-template">
+    <a href="#" target="_blank" class="service environment-wildlife">
+        <div class="service-preview">
+            <div class="service-entities">
+                <ul class="input-entities"></ul>
+                <span class="separator"></span>
+                <ul class="output-entities"></ul>
+            </div>
+            <div class="service-logo"></div>
+        </div>
+        <h2>Service name</h2>
+    </a>
+</template>
+<main>
+    <div class="logo"></div>
+    <form>
+        <label class="tag-input-label">
+            Known entities
+            <span class="comment">(what do you know?)</span>
+        </label>
+        <div class="tag-input from-tag-input">
+            <div class="tags">
+                <input>
+            </div>
+            <ul class="suggestions"></ul>
+        </div>
+        <label class="tag-input-label">
+            Sought entities
+            <span class="comment">(what are you looking for? Leave empty for global search)</span>
+        </label>
+        <div class="tag-input to-tag-input">
+            <div class="tags">
+                <input>
+            </div>
+            <ul class="suggestions"></ul>
+        </div>
+        <div class="centered">
+            <button type="submit" class="search-button">Search</button>
+        </div>
+    </form>
+    <section class="results">
+        <section class="direct-results">
+            <h1>
+                Direct services
+                <span class="help"></span>
+                <span class="tip">These services take known entities as input and output one or more sought entities</span>
+            </h1>
+            <div class="services"></div>
+        </section>
+        <section class="indirect-results">
+            <h1>
+                Indirect paths
+                <span class="help"></span>
+                <span class="tip">Those are services you can use in a sequence to obtain sought entities from known entities</span>
+            </h1>
+            <div class="paths">
+            </div>
+        </section>
+    </section>
+</main>
+<script type="module" src="/js/App.js"></script>
+</body>
+</html>
