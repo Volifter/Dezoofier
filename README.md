@@ -37,7 +37,7 @@ npm install
 npm start
 ```
 5. Open a web browser and navigate to `127.0.0.1:8080`.
-6. Have a look at the [user manual](./MANUAL.md), and enjoy scraping!
+6. Have a look at the [user manual](./MANUAL.md), and enjoy searching!
 
 ## Usage
 Please refer to the [User manual](./MANUAL.md) for a complete usage guide.
@@ -59,7 +59,7 @@ At the time of writing, Dezoofier stores all data in CSV files.
 Given the limited size of the data (about 300 services and 60 entities), at this
 point it is not an issue in terms of performance.
 However, this means that in order to update that data, one needs to open the CSV
-file, make modifications to it by hand and then relaunch the server.
+file, make modifications to it by hand and then restart the server.
 
 This process can be greatly improved by moving to database storage and
 implementing a backoffice interface for elegant data management.
