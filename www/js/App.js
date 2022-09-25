@@ -13,6 +13,7 @@ class App {
             services:        document.querySelector(".services"),
             indirectResults: document.querySelector(".indirect-results"),
             paths:           document.querySelector(".paths"),
+            emptyResults:    document.querySelector(".empty-results"),
             serviceTemplate: document.getElementById("service-template")
         };
         this.entities  = {};
@@ -117,6 +118,7 @@ class App {
 
         this.$.directResults.classList.toggle("shown", has_direct);
         this.$.indirectResults.classList.toggle("shown", has_indirect);
+        this.$.emptyResults.classList.toggle("shown", !paths.length);
     }
 }
 

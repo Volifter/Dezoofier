@@ -10,6 +10,7 @@
 <body>
 <template id="service-template">
     <a href="#" target="_blank" class="service environment-wildlife">
+        <div class="labels"></div>
         <div class="service-preview">
             <div class="service-entities">
                 <ul class="input-entities"></ul>
@@ -26,7 +27,9 @@
     <form>
         <label class="tag-input-label">
             Known entities
-            <span class="comment">(what do you know?)</span>
+            <span class="comment">
+                (what do you know?)
+            </span>
         </label>
         <div class="tag-input from-tag-input">
             <div class="tags">
@@ -36,7 +39,9 @@
         </div>
         <label class="tag-input-label">
             Sought entities
-            <span class="comment">(what are you looking for? Leave empty for global search)</span>
+            <span class="comment">
+                (what are you looking for? Leave empty for global search)
+            </span>
         </label>
         <div class="tag-input to-tag-input">
             <div class="tags">
@@ -53,7 +58,10 @@
             <h1>
                 Direct services
                 <span class="help"></span>
-                <span class="tip">These services take known entities as input and output one or more sought entities</span>
+                <span class="tip">
+                    These services take known entities as input and output one
+                    or more sought entities
+                </span>
             </h1>
             <div class="services"></div>
         </section>
@@ -61,10 +69,24 @@
             <h1>
                 Indirect paths
                 <span class="help"></span>
-                <span class="tip">Those are services you can use in a sequence to obtain sought entities from known entities</span>
+                <span class="tip">
+                    Those are services you can use in a sequence to obtain
+                    sought entities from known entities
+                </span>
             </h1>
             <div class="paths">
             </div>
+        </section>
+        <section class="empty-results">
+            <div class="empty-doodle"></div>
+            <h1>
+                Uh-oh, looks like there aren't any services matching your
+                criteria...
+            </h1>
+            <p>
+                Try adding more known entities or consider leaving the sought
+                entities field blank.
+            </p>
         </section>
     </section>
 </main>

@@ -117,11 +117,19 @@ export default class TagInput {
 
             return is_shown;
         });
+
+        console.log("SELECTED", this.selectedIdx);
+        if (is_suggested) {
+            this.selectedIdx = -1;
+            this.selectTag(1);
+        }
     }
 
     selectTag(delta) {
         if (!this.$suggested.length)
             return;
+
+        console.log(this.$suggested);
 
         const size = this.$suggested.length;
 
