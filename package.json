@@ -1,5 +1,5 @@
 {
-  "name": "dit",
+  "name": "dezofier",
   "version": "1.0.0",
   "description": "",
   "main": "src/Main.js",
@@ -9,7 +9,7 @@
   "author": "Volifter",
   "license": "ISC",
   "dependencies": {
-    "csv-parse": "^5.3.0",
-    "express": "^4.21.0"
+    "csv-parse": "^6.1.0",
+    "express": "^5.2.1"
   }
 }
